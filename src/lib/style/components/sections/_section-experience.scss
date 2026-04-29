@@ -1,0 +1,74 @@
+@use '../../mixins/transparent-block' as *;
+
+.section-experience {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2.5rem;
+
+  >.line {
+    height: 100%;
+    width: 1px;
+    background-color: rgba($color: white, $alpha: .1);
+  }
+
+  >.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    >.container {
+      @include transparent-block;
+      padding: 2rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+
+      >.timeline-point {
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: rgba($color: red, $alpha: .5);
+        border-radius: 2rem;
+        position: absolute;
+        right: calc(100% + 1.75rem + 1px);
+        top: 1.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >.center {
+          width: 1rem;
+          height: 1rem;
+          border: 1px solid red;
+          border-radius: inherit;
+          background-color: #020618;
+        }
+      }
+
+      >.date {
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+      }
+
+      >.top {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+      }
+
+      >.bullet-list {
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+      }
+
+      >.links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .5rem;
+      }
+    }
+  }
+}

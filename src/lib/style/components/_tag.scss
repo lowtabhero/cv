@@ -1,0 +1,8 @@
+@use '../mixins/transparent-block' as *;
+
+.tag {
+  @include transparent-block;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.25rem 0.75rem;
+}

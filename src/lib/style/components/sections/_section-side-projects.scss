@@ -1,0 +1,39 @@
+@use '../../mixins/transparent-block' as *;
+
+.section-side-projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+
+  >.container {
+    @include transparent-block;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+
+    >.top {
+      display: flex;
+      flex-direction: column;
+      gap: .75rem;
+
+      >.short-desc {
+        color: red;
+      }
+    }
+
+    >.bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      >.tags {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .5rem;
+      }
+    }
+  }
+}
