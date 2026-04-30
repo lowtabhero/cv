@@ -11,6 +11,7 @@
 		<div class="container">
 			<div class="timeline-point">
 				<div class="center"></div>
+				<div class="pulse-border"></div>
 			</div>
 			<div class="date">
 				<Tag text="Jan 2025 - Apr 2026" />
@@ -45,6 +46,7 @@
 		<div class="container">
 			<div class="timeline-point">
 				<div class="center"></div>
+				<div class="pulse-border"></div>
 			</div>
 			<div class="date">
 				<Tag text="Nov 2024 - Dec 2024" />
@@ -70,6 +72,7 @@
 		<div class="container">
 			<div class="timeline-point">
 				<div class="center"></div>
+				<div class="pulse-border"></div>
 			</div>
 			<div class="date">
 				<Tag text="Aug 2024 - Oct 2024" />
