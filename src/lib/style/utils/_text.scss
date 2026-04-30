@@ -1,0 +1,59 @@
+@use './variables' as *;
+@use '../mixins/transparent-block' as *;
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  color: $text-secondary;
+
+  &.bold {
+    color: $text-base;
+    font-weight: 600;
+  }
+}
+
+span {
+  font-size: 14px;
+  color: $text-secondary;
+}
+
+a {
+  @include transparent-block;
+  color: $text-secondary;
+  font-size: 14px;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  padding: .25rem 2rem .25rem .75rem;
+
+  background-image: url('/assets/link-ico.svg');
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+
+  &.simple {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    background-image: none;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

@@ -4,5 +4,7 @@
 </script>
 
 <div class="tag">
-	{text}
+	<span>
+		{text}
+	</span>
 </div>

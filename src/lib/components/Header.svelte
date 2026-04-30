@@ -5,8 +5,8 @@
 <header>
 	<div class="content">
 		<div class="left">
-			<p>Alexey Riazantsev</p>
-			<p>Full Stack Web Developer</p>
+			<p class="bold">Alexey Riazantsev</p>
+			<span>Full Stack Web Developer</span>
 		</div>
 		<nav>
 			<a class="simple" href="/">About</a>

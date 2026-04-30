@@ -1,3 +1,4 @@
+@use '../../utils/variables' as *;
 @use '../../mixins/transparent-block' as *;
 
 .section-experience {
@@ -27,7 +28,7 @@
       >.timeline-point {
         width: 1.5rem;
         height: 1.5rem;
-        background-color: rgba($color: red, $alpha: .5);
+        background-color: rgba($color: $accent, $alpha: .5);
         border-radius: 2rem;
         position: absolute;
         right: calc(100% + 1.75rem + 1px);
@@ -39,9 +40,9 @@
         >.center {
           width: 1rem;
           height: 1rem;
-          border: 1px solid red;
+          border: 1px solid $accent;
           border-radius: inherit;
-          background-color: #020618;
+          background-color: $background-base;
         }
       }
 
