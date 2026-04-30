@@ -1,8 +1,46 @@
+@use '../utils/variables' as *;
 @use '../mixins/transparent-block' as *;
+@use '../utils/pulse-animation';
 
 .tag {
   @include transparent-block;
   width: fit-content;
   height: fit-content;
   padding: 0.25rem 0.75rem;
+
+  &.status {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: .5rem;
+    border: 1px solid rgba($color: $green, $alpha: .2);
+    background-color: rgba($color: $green, $alpha: .1);
+
+
+    >.status-point {
+      width: .5rem;
+      height: .5rem;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $green;
+
+
+      >.pulse-border {
+        position: absolute;
+        width: .5rem;
+        height: .5rem;
+        border: 1px solid rgba($color: $green, $alpha: .5);
+        border-radius: inherit;
+        animation: pulse 1.5s infinite;
+
+      }
+    }
+
+    >span {
+      color: $green;
+    }
+  }
 }

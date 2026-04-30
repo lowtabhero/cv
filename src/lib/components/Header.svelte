@@ -9,7 +9,7 @@
 			<span>Full Stack Web Developer</span>
 		</div>
 		<nav>
-			<a class="simple" href="/">About</a>
+			<a class="simple" href="#about">About</a>
 			<a class="simple" href="#skills">Skills</a>
 			<a class="simple" href="#experience">Experience</a>
 			<a class="simple" href="#side-projects">Projects</a>

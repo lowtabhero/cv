@@ -20,6 +20,12 @@ header {
     align-items: center;
     max-width: 64rem;
 
+    >.left {
+      >p {
+        color: $text-base;
+      }
+    }
+
     >nav {
       display: flex;
       flex-direction: row;

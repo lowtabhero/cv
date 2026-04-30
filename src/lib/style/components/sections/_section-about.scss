@@ -1,0 +1,29 @@
+@use '../../utils/variables' as *;
+
+.section-about {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  scroll-margin-top: 10rem;
+
+  >.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+
+  >.info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    >.page-role {
+      color: $accent;
+    }
+
+    >.job-title {
+      font-size: 28px;
+    }
+  }
+}

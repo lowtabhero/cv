@@ -7,7 +7,7 @@
 <Section id="side-projects" title="Side projects" contentClass="section-side-projects">
 	<div class="container">
 		<div class="top">
-			<span class="short-desc uppercase">Multilingual SvelteKit Website</span>
+			<span class="short-desc bold uppercase">Multilingual SvelteKit Website</span>
 			<h3>Lumica Center</h3>
 			<p>
 				Built a multilingual website using SvelteKit with content separated by language-specific
@@ -28,7 +28,7 @@
 	</div>
 	<div class="container">
 		<div class="top">
-			<span class="short-desc uppercase">Internal Tool</span>
+			<span class="short-desc bold uppercase">Internal Tool</span>
 			<h3>SEO Content Cluster Automation Tool</h3>
 			<p>
 				Internal tool for generating SEO content clusters and saving them as WordPress drafts

@@ -18,7 +18,7 @@
 			</div>
 			<div class="top">
 				<h3>Velmure Studio</h3>
-				<p>Web Developer / Full Stack Web Developer</p>
+				<p class="bold">Full Stack Web Developer</p>
 			</div>
 			<p class="summary">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam
@@ -53,7 +53,7 @@
 			</div>
 			<div class="top">
 				<h3>Prestige Expo</h3>
-				<p>Web Developer / Full Stack Web Developer</p>
+				<p class="bold">Web Developer</p>
 			</div>
 			<p class="summary">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam
@@ -78,8 +78,8 @@
 				<Tag text="Aug 2024 - Oct 2024" />
 			</div>
 			<div class="top">
-				<h3>The Agency RE</h3>
-				<p>Web Developer / Full Stack Web Developer</p>
+				<h3>The Agency Marbella</h3>
+				<p class="bold">Web Developer</p>
 			</div>
 			<p class="summary">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam

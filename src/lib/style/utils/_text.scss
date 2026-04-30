@@ -8,6 +8,11 @@ p {
   margin: 0;
 }
 
+h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
 h2 {
   font-size: 32px;
   font-weight: 600;
@@ -20,11 +25,6 @@ h3 {
 
 p {
   color: $text-secondary;
-
-  &.bold {
-    color: $text-base;
-    font-weight: 600;
-  }
 }
 
 span {
@@ -67,4 +67,8 @@ a {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 600;
 }
