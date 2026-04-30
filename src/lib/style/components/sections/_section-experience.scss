@@ -1,5 +1,5 @@
 @use '../../utils/variables' as *;
-@use '../../mixins/transparent-block' as *;
+@use '../../mixins/transparent-container' as *;
 @use '../../utils/pulse-animation';
 
 .section-experience {
@@ -19,8 +19,7 @@
     gap: 1.5rem;
 
     >.container {
-      @include transparent-block;
-      padding: 2rem;
+      @include transparent-container;
       position: relative;
       display: flex;
       flex-direction: column;
@@ -30,11 +29,6 @@
         >.timeline-point {
           >.pulse-border {
             display: block;
-            position: absolute;
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: inherit;
-            border: 1px solid rgba($color: $accent, $alpha: .3);
             animation: pulse 1.5s infinite;
           }
         }
@@ -62,6 +56,11 @@
         }
 
         >.pulse-border {
+          position: absolute;
+          width: 1.5rem;
+          height: 1.5rem;
+          border-radius: inherit;
+          border: 1px solid rgba($color: $accent, $alpha: .3);
           display: none;
         }
       }
@@ -89,6 +88,44 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: .5rem;
+      }
+    }
+  }
+}
+
+@media(max-width: 1024px) {
+  .section-experience {
+    gap: 1.5rem;
+
+    >.wrapper {
+      >.container {
+        >.timeline-point {
+          width: 1rem;
+          height: 1rem;
+          right: calc(100% + 1rem + 1px);
+
+          >.center {
+            width: .75rem;
+            height: .75rem;
+          }
+
+          >.pulse-border {
+            width: 1rem;
+            height: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 600px) {
+  .section-experience {
+    >.wrapper {
+      >.container {
+        >.date {
+          position: static;
+        }
       }
     }
   }

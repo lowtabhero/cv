@@ -13,12 +13,12 @@
 				<div class="center"></div>
 				<div class="pulse-border"></div>
 			</div>
-			<div class="date">
-				<Tag text="Jan 2025 - Apr 2026" />
-			</div>
 			<div class="top">
 				<h3>Velmure Studio</h3>
 				<p class="bold">Full Stack Web Developer</p>
+			</div>
+			<div class="date">
+				<Tag text="Jan 2025 - Apr 2026" />
 			</div>
 			<p class="summary">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam
@@ -48,12 +48,12 @@
 				<div class="center"></div>
 				<div class="pulse-border"></div>
 			</div>
-			<div class="date">
-				<Tag text="Nov 2024 - Dec 2024" />
-			</div>
 			<div class="top">
 				<h3>Prestige Expo</h3>
 				<p class="bold">Web Developer</p>
+			</div>
+			<div class="date">
+				<Tag text="Nov 2024 - Dec 2024" />
 			</div>
 			<p class="summary">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam
@@ -74,12 +74,12 @@
 				<div class="center"></div>
 				<div class="pulse-border"></div>
 			</div>
+			<div class="top">
+				<h3>The Agency RE</h3>
+				<p class="bold">Web Developer</p>
+			</div>
 			<div class="date">
 				<Tag text="Aug 2024 - Oct 2024" />
-			</div>
-			<div class="top">
-				<h3>The Agency Marbella</h3>
-				<p class="bold">Web Developer</p>
 			</div>
 			<p class="summary">
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam

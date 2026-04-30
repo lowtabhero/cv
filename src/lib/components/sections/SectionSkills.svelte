@@ -22,8 +22,8 @@
 		<div class="tags">
 			<Tag text="PHP" />
 			<Tag text="SQL" />
-			<Tag text="WordPress Headless CMS" />
 			<Tag text="REST API" />
+			<Tag text="WordPress Headless CMS" />
 		</div>
 	</div>
 	<div class="container">

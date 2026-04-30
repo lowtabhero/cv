@@ -1,14 +1,19 @@
-@use '../../mixins/transparent-block' as *;
+@use '../../mixins/transparent-container' as *;
 
 .section-education {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
   .container {
-    @include transparent-block;
-    padding: 1.5rem;
+    @include transparent-container;
     display: flex;
     flex-direction: column;
     gap: .5rem;
+  }
+}
+
+@media(max-width: 600px) {
+  .section-education {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,0 +1,6 @@
+@use './transparent-block' as *;
+
+@mixin transparent-container {
+  @include transparent-block;
+  padding: 1.5rem;
+}

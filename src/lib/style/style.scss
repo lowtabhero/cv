@@ -19,5 +19,13 @@ main {
   gap: 8rem;
   max-width: 64rem;
   margin: 10rem auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
+}
+
+@media(max-width: 600px) {
+  main {
+    gap: 4rem;
+    margin: 8rem auto;
+    padding: 0 1rem;
+  }
 }

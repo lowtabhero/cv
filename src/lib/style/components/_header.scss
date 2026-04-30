@@ -11,14 +11,15 @@ header {
   backdrop-filter: blur(8px);
 
   >.content {
-    padding: 1rem;
+    max-width: 64rem;
     margin: auto;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 64rem;
+    gap: 1rem;
 
     >.left {
       >p {
@@ -38,6 +39,26 @@ header {
       flex-direction: row;
       flex-wrap: nowrap;
       gap: .5rem;
+    }
+  }
+}
+
+@media(max-width: 1024px) {
+  header {
+    >.content {
+      padding: 1rem 2rem;
+
+      >nav {
+        display: none;
+      }
+    }
+  }
+}
+
+@media(max-width: 600px) {
+  header {
+    >.content {
+      padding: 1rem;
     }
   }
 }
