@@ -1,5 +1,7 @@
 <script>
 	import '$lib/style/components/_header.scss';
+
+	let { name, jobTitle, socialLinks } = $props();
 </script>
 
 <header>
@@ -17,14 +19,9 @@
 			<a class="simple" href="#contact">Contact</a>
 		</nav>
 		<div class="social">
-			<a href="https://github.com/lowtabhero" target="_blank" rel="noopener noreferrer"> GitHub </a>
-			<a
-				href="https://www.linkedin.com/in/alexey-riazantsev-01899a2a3/"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				LinkedIn
-			</a>
+			{#each socialLinks as link}
+				<a href={link.v} target="_blank" rel="noopener noreferrer"> {link.n} </a>
+			{/each}
 		</div>
 	</div>
 </header>
