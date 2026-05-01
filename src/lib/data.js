@@ -5,6 +5,7 @@ export const data = {
     { n: 'GitHub', v: 'https://github.com/lowtabhero' },
     { n: 'LinkedIn', v: 'https://www.linkedin.com/in/alexey-riazantsev-01899a2a3/' }
   ],
+  email: 'newdeveloper2003@gmail.com',
   located: "Based in Spain",
   openToWork: true,
   shortSummary: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem fuga voluptatem dolorum. Excepturi modi sunt debitis assumenda vel minus consequatur! Tempore, numquam. Perspiciatis ut dignissimos provident. Ipsa laudantium voluptate voluptatum.',
@@ -105,5 +106,7 @@ export const data = {
       institution: 'I.E.S. Mar de Alborán',
       location: 'Spain'
     }
-  ]
+  ],
+  contactCta: 'Want to get in touch or see more of my work?',
+  contactParagraph: 'You can reach me by email or find more technical context, projects, and professional information through my profiles.',
 }

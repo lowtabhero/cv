@@ -23,4 +23,9 @@
 <SectionExperience companies={data.companies} />
 <SectionSideProjects sideProjects={data.sideProjects} />
 <SectionEducation educations={data.educations} />
-<SectionContact />
+<SectionContact
+	contactCta={data.contactCta}
+	contactParagraph={data.contactParagraph}
+	email={data.email}
+	socialLinks={data.socialLinks}
+/>

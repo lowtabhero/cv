@@ -37,6 +37,10 @@
       &:last-child {
         grid-column: auto;
       }
+
+      >.bullet-list {
+        grid-template-columns: 1fr;
+      }
     }
   }
 }

@@ -3,5 +3,5 @@
 </script>
 
 <footer>
-	<p>Built with SvelteKit. Deployed on Vercel.</p>
+	<span>Built with SvelteKit. Deployed on Vercel.</span>
 </footer>

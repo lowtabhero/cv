@@ -63,6 +63,13 @@ a {
       background-color: rgba($color: $accent, $alpha: 0.1);
     }
   }
+
+  &.light {
+    background-image: none;
+    padding: .25rem .75rem;
+    background-color: $text-base;
+    color: $background-base;
+  }
 }
 
 .uppercase {

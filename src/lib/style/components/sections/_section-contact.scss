@@ -1,1 +1,58 @@
-@use '../../mixins/transparent-block' as *;
+@use '../../utils/variables' as *;
+@use '../../mixins/transparent-container' as *;
+
+.section-contact {
+  @include transparent-container;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+
+  >p {
+    max-width: 70%;
+
+    &.cta {
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 48px;
+      color: $text-base;
+    }
+  }
+
+
+  >.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: .75rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-contact {
+
+    >p {
+      max-width: 80%;
+
+      &.cta {
+        font-size: 40px;
+        line-height: 40px;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .section-contact {
+
+    >p {
+      max-width: none;
+
+      &.cta {
+        font-size: 28px;
+        line-height: 28px;
+      }
+    }
+  }
+}
