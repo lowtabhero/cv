@@ -8,19 +8,23 @@ export const data = {
   email: 'newdeveloper2003@gmail.com',
   located: "Based in Spain",
   openToWork: true,
-  shortSummary: 'Full Stack Web Developer. I build websites and web tools with a focus on practical implementation, integrations, and production-ready delivery using SvelteKit, JavaScript, React, PHP, SQL, and headless WordPress.',
+  shortSummary: 'I build websites and web tools from implementation to production, with practical experience in integrations and delivery using SvelteKit, JavaScript, React, PHP, SQL, and headless WordPress.',
   skills: [
     {
-      title: 'FrontEnd',
-      values: ["SvelteKit", "JavaScript", "React", "TypeScript", "HTML", "SCSS"]
+      title: 'Frontend',
+      values: ["SvelteKit", "JavaScript", "React", "HTML", "SCSS", "TypeScript"]
     },
     {
       title: 'Backend',
-      values: ["PHP", "SQL", "REST API", "WordPress (Headless CMS)"]
+      values: ["PHP", "SQL", "Database design", "API endpoints"]
+    },
+    {
+      title: 'Integrations',
+      values: ["REST APIs", "Headless CMS", "CRM integrations"]
     },
     {
       title: 'Workflow',
-      values: ["Figma", "Github", "Vercel"]
+      values: ["Figma-to-code", "GitHub", "Vercel", "Maintenance", "Project handover"]
     },
     {
       title: 'Languages',
@@ -29,11 +33,11 @@ export const data = {
   ],
   routineWork: [
     "Figma-to-production website implementation",
-    "CMS-driven websites with WordPress integrations",
-    "Internal tools and admin interfaces",
-    "REST API integrations",
+    "CMS-driven websites using WordPress, Strapi or similar tools",
+    "Internal web tools for business and content workflows",
+    "API integrations",
     "Multilingual websites",
-    "Website maintenance, fixes, and deployment setup",
+    "Website maintenance, production fixes, deployment setup, and project transfers",
   ],
   companies: [
     {
@@ -42,11 +46,13 @@ export const data = {
       date: 'Jan 2025 - Apr 2026',
       summary: 'Built websites from Figma to production, worked across public sites, MVPs, and internal tools, and handled integrations, maintenance, and delivery tasks.',
       summaryPoints: [
-        'Built multiple websites from Figma designs to production-ready implementations',
-        'Worked on public websites, MVPs, and internal web tools across different project stages',
-        'Created custom UI solutions and interactive frontend elements for presentation-focused websites',
-        'Implemented WordPress-based content integrations and menu/catalog functionality',
-        'Maintained existing websites and handled project transfers, domain setup, and production fixes'
+        'Built production websites including tyrian.es, exclusive.tyrian.es, and studio.velmure.com using PHP, custom frontend work, and content/API integrations',
+        'Rebuilt an internal data parsing and graph visualization tool from SvelteKit, reducing loading and chart rendering time by approximately 5–8x',
+        'Built internal CRM-based tools for extracting, restructuring, displaying, and exporting business data to Excel',
+        'Developed SvelteKit MVPs and reusable website templates with CRM data, JSON-based content, CDN-hosted images, and custom business logic',
+        'Handled website maintenance, DNS setup, project transfers, deployment tasks, production fixes, and content updates for existing websites',
+        'Took ownership of a Nuxt-based website built by another developers team',
+        'Mentored a junior developer in SvelteKit and practical development workflows'
       ],
       webLinks: [
         { n: 'studio.velmure.com', v: 'https://studio.velmure.com/' },
@@ -56,25 +62,28 @@ export const data = {
     },
     {
       companyName: 'Prestige Expo',
-      position: 'Full Stack Web Developer',
+      position: 'Web Developer',
       date: 'Nov 2024 - Dec 2024',
       summary: 'Contributed to an early-stage frontend build, exploring interaction patterns, animations, and technical directions for future functionality.',
       summaryPoints: [
-        'Contributed to the early-stage frontend implementation of a website before the final design phase',
-        'Experimented with animations, UI patterns, and frontend interaction approaches',
-        'Researched CRM API integration for future business-related functionality',
-        'Explored libraries and technical solutions for animation and website implementation'
+        'Explored frontend implementation approaches based on client references and early website requirements',
+        'Experimented with animations, UI interactions, and libraries for a future production website',
+        'Researched CRM API capabilities and possible integration approaches',
+        'Built an internal tool prototype for parsing website data, storing it in a database, and visualizing it with graph-based views',
+        'Proposed technical ideas and implementation options while the final website design was still being prepared'
       ]
     },
     {
       companyName: 'The Agency RE',
-      position: 'Web Developer',
+      position: 'Web Developer / IT Assistant',
       date: 'Aug 2024 - Oct 2024',
-      summary: 'Maintained an existing website, supported updates, and built internal WordPress tooling for content-related workflows.',
+      summary: 'Supported the company website and web-related business workflows, combining WordPress development, bug reporting, developer coordination, HubSpot/email troubleshooting, and ongoing website maintenance.',
       summaryPoints: [
-        'Maintained an existing website and supported ongoing updates',
-        'Developed custom internal WordPress plugins',
-        'Built a translation generation tool for blog-related workflows',
+        'Reported website bugs and coordinated fixes, updates, and functionality requests with the development team',
+        'Built custom WordPress tools for blog meta descriptions and translation generation workflows integrated with OpenAI',
+        'Supported HubSpot lists, contact workflows, and email integration troubleshooting',
+        'Handled small DNS, email, QR/form, and website configuration tasks',
+        'Worked on translations, content updates, drafts, and property-related website pages'
       ]
     },
   ],
