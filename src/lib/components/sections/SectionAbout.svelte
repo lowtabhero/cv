@@ -3,11 +3,19 @@
 	import Section from '$lib/components/sections/Section.svelte';
 	import Tag from '$lib/components/Tag.svelte';
 	import BulletListItem from '../BulletListItem.svelte';
+	import BackgroundCircle from '$lib/components/BackgroundCircle.svelte';
 
 	let { name, jobTitle, located, openToWork, summary } = $props();
 </script>
 
 <section id="about" class="section-about">
+	<BackgroundCircle
+		size={'clamp(200px, 30vw, 400px)'}
+		left={'40%'}
+		top={'-40%'}
+		color={'#74D4FF'}
+	/>
+	<BackgroundCircle size={'clamp(100px, 30vw, 300px)'} left={'80%'} top={'50%'} color={'#ff7a59'} />
 	<div class="tags">
 		<Tag text={located} />
 		{#if openToWork}

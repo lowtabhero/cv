@@ -3,4 +3,6 @@
   flex-direction: column;
   gap: 2rem;
   scroll-margin-top: 10rem;
+  position: relative;
+  isolation: isolate;
 }

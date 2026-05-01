@@ -3,11 +3,24 @@
 	import Section from '$lib/components/sections/Section.svelte';
 	import Tag from '$lib/components/Tag.svelte';
 	import BulletListItem from '../BulletListItem.svelte';
+	import BackgroundCircle from '$lib/components/BackgroundCircle.svelte';
 
 	let { companies } = $props();
 </script>
 
 <Section id="experience" title="Experience" contentClass="section-experience">
+	<BackgroundCircle
+		size={'clamp(180px, 28vw, 340px)'}
+		left={'-14%'}
+		top={'12%'}
+		color={'#c084fc'}
+	/>
+	<BackgroundCircle
+		size={'clamp(120px, 20vw, 220px)'}
+		left={'82%'}
+		top={'58%'}
+		color={'#2dd4bf'}
+	/>
 	<div class="line"></div>
 	<div class="wrapper">
 		{#each companies as company}

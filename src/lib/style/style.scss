@@ -3,6 +3,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: $text-base;
   background-color: $background-base;
+  overflow-x: clip;
 }
 
 main {
@@ -18,14 +20,13 @@ main {
   flex-direction: column;
   gap: 8rem;
   max-width: 64rem;
-  margin: 10rem auto;
-  padding: 0 2rem;
+  margin: auto;
+  padding: 10rem 2rem;
 }
 
 @media(max-width: 600px) {
   main {
     gap: 4rem;
-    margin: 8rem auto;
-    padding: 0 1rem;
+    padding: 8rem 1rem;
   }
 }

@@ -5,6 +5,8 @@
   flex-direction: column;
   gap: 1.75rem;
   scroll-margin-top: 10rem;
+  position: relative;
+  isolation: isolate;
 
   >.tags {
     display: flex;

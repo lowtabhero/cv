@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+
+.background-circle {
+  position: absolute;
+  z-index: -1;
+  border-radius: 100vw;
+  opacity: .1;
+  filter: blur(32px);
+}
