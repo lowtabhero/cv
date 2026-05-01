@@ -8,7 +8,7 @@ export const data = {
   email: 'newdeveloper2003@gmail.com',
   located: "Based in Spain",
   openToWork: true,
-  shortSummary: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem fuga voluptatem dolorum. Excepturi modi sunt debitis assumenda vel minus consequatur! Tempore, numquam. Perspiciatis ut dignissimos provident. Ipsa laudantium voluptate voluptatum.',
+  shortSummary: 'Full Stack Web Developer. I build websites and web tools with a focus on practical implementation, integrations, and production-ready delivery using SvelteKit, JavaScript, React, PHP, SQL, and headless WordPress.',
   skills: [
     {
       title: 'FrontEnd',
@@ -16,7 +16,7 @@ export const data = {
     },
     {
       title: 'Backend',
-      values: ["PHP", "SQL", "REST API", "WordPress Headless CMS"]
+      values: ["PHP", "SQL", "REST API", "WordPress (Headless CMS)"]
     },
     {
       title: 'Workflow',
@@ -24,7 +24,7 @@ export const data = {
     },
     {
       title: 'Languages',
-      values: ["English", "Spanish", "Russian"]
+      values: ["English", "Russian", "Spanish"]
     }
   ],
   routineWork: [
@@ -40,11 +40,13 @@ export const data = {
       companyName: 'Velmure Studio',
       position: 'Full Stack Web Developer',
       date: 'Jan 2025 - Apr 2026',
-      summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
+      summary: 'Built websites from Figma to production, worked across public sites, MVPs, and internal tools, and handled integrations, maintenance, and delivery tasks.',
       summaryPoints: [
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-        'Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error'
+        'Built multiple websites from Figma designs to production-ready implementations',
+        'Worked on public websites, MVPs, and internal web tools across different project stages',
+        'Created custom UI solutions and interactive frontend elements for presentation-focused websites',
+        'Implemented WordPress-based content integrations and menu/catalog functionality',
+        'Maintained existing websites and handled project transfers, domain setup, and production fixes'
       ],
       webLinks: [
         { n: 'studio.velmure.com', v: 'https://studio.velmure.com/' },
@@ -55,25 +57,24 @@ export const data = {
     {
       companyName: 'Prestige Expo',
       position: 'Full Stack Web Developer',
-      date: 'Nov 2025 - Dec 2025',
-      summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
+      date: 'Nov 2024 - Dec 2024',
+      summary: 'Contributed to an early-stage frontend build, exploring interaction patterns, animations, and technical directions for future functionality.',
       summaryPoints: [
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-        'Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error'
+        'Contributed to the early-stage frontend implementation of a website before the final design phase',
+        'Experimented with animations, UI patterns, and frontend interaction approaches',
+        'Researched CRM API integration for future business-related functionality',
+        'Explored libraries and technical solutions for animation and website implementation'
       ]
     },
     {
       companyName: 'The Agency RE',
       position: 'Web Developer',
       date: 'Aug 2024 - Oct 2024',
-      summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
+      summary: 'Maintained an existing website, supported updates, and built internal WordPress tooling for content-related workflows.',
       summaryPoints: [
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-        'Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
-        'Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
-        'Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error',
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo perspiciatis totam itaque iure neque magni voluptate at sit enim similique non fuga eum, pariatur libero error'
+        'Maintained an existing website and supported ongoing updates',
+        'Developed custom internal WordPress plugins',
+        'Built a translation generation tool for blog-related workflows',
       ]
     },
   ],
@@ -81,8 +82,8 @@ export const data = {
     {
       shortDesc: 'Multilingual sveltekit website',
       name: 'Lumica Center',
-      desc: 'Built a multilingual website using SvelteKit with content separated by language-specific JSON files. Integrated WordPress blog content and managed deployment through GitHub and Vercel.',
-      tags: ['SvelteKit', 'WordPress REST API', 'GitHub', 'Vercel'],
+      desc: 'Built a multilingual website using SvelteKit with content separated by language-specific JSON files. Integrated WordPress blog content into the website and managed deployment workflow with GitHub and Vercel.',
+      tags: ['SvelteKit', 'WordPress blog integration', 'GitHub', 'Vercel'],
       link: {
         n: 'lumicacenter.com',
         v: 'https://lumicacenter.com/'
