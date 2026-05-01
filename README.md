@@ -1,42 +1,29 @@
-# sv
+# CV
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Simple portfolio website built with SvelteKit.
 
-## Creating a project
+## About
 
-If you're seeing this, you've probably already done this step. Congrats!
+This project is a personal portfolio site.
 
-```sh
-# create a new project
-npx sv create my-app
-```
+All main content is stored in `src/lib/data.js`.
 
-To recreate this project with the same configuration:
+## Stack
 
-```sh
-# recreate this project
-npx sv create --template minimal --no-types --add prettier eslint --install npm ./
-```
+- SvelteKit
+- Svelte
+- SCSS
 
-## Developing
+## Run locally
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+```bash
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Build
 
-To create a production version of your app:
-
-```sh
+```bash
 npm run build
+npm run preview
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
