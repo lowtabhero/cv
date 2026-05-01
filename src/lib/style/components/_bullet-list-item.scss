@@ -1,17 +1,19 @@
 @use '../utils/variables' as *;
 
 .bullet-list-item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  gap: .75rem;
+  >.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: .75rem;
 
-  >.bullet {
-    width: .5rem;
-    height: .5rem;
-    border-radius: 1rem;
-    background-color: $accent;
-    flex-shrink: 0;
+    >.bullet {
+      margin-top: 7px;
+      width: .5rem;
+      height: .5rem;
+      border-radius: 1rem;
+      background-color: $accent;
+      flex-shrink: 0;
+    }
   }
 }

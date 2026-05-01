@@ -4,6 +4,8 @@
 </script>
 
 <div class="bullet-list-item">
-	<div class="bullet"></div>
-	<p>{text}</p>
+	<div class="wrapper">
+		<div class="bullet"></div>
+		<p>{text}</p>
+	</div>
 </div>
