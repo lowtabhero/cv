@@ -112,7 +112,7 @@ export const data = {
   educations: [
     {
       title: 'FP Grado Superior de Desarrollo Web',
-      years: '2022 - 2024',
+      years: '2022 - 2025',
       institution: 'I.E.S. Mar de Alborán',
       location: 'Spain'
     }
