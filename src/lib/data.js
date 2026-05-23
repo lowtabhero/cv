@@ -7,7 +7,7 @@ export const data = {
   ],
   email: 'newdeveloper2003@gmail.com',
   located: "Based in Spain",
-  openToWork: true,
+  openToWork: false,
   shortSummary: 'I build websites and web tools from implementation to production, with practical experience in integrations and delivery using SvelteKit, JavaScript, React, PHP, SQL, and headless WordPress.',
   skills: [
     {
@@ -40,6 +40,11 @@ export const data = {
     "Website maintenance, production fixes, deployment setup, and project transfers",
   ],
   companies: [
+    {
+      companyName: 'Prestige Expo',
+      position: 'Web Developer',
+      date: 'May 2026 - Present',
+    },
     {
       companyName: 'Velmure Studio',
       position: 'Full Stack Web Developer',
