@@ -23,7 +23,7 @@
   >.links {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: .75rem;
   }
 }

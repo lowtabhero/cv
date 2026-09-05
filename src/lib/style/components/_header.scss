@@ -72,3 +72,13 @@ header {
     }
   }
 }
+
+@media(max-width: 330px) {
+  header {
+    >.content {
+      >.social {
+        display: none;
+      }
+    }
+  }
+}

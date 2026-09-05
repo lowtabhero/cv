@@ -77,10 +77,22 @@
         gap: .5rem;
       }
 
-      >.bullet-list {
+      >.points-blocks {
         display: flex;
         flex-direction: column;
-        gap: .75rem;
+        gap: 1.25rem;
+
+        >.points-block {
+          display: flex;
+          flex-direction: column;
+          gap: .5rem;
+
+          >.bullet-list {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+          }
+        }
       }
 
       >.links {
@@ -125,6 +137,21 @@
       >.container {
         >.date {
           position: static;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 330px) {
+  .section-experience {
+    gap: .5rem;
+
+    >.wrapper {
+      >.container {
+        >.timeline-point {
+          right: calc(100% + 1px);
+          // right: calc(100% + .125rem + 1px);
         }
       }
     }

@@ -15,12 +15,7 @@
 		top={'12%'}
 		color={'#c084fc'}
 	/>
-	<BackgroundCircle
-		size={'clamp(120px, 20vw, 220px)'}
-		left={'82%'}
-		top={'58%'}
-		color={'#2dd4bf'}
-	/>
+	<BackgroundCircle size={'clamp(120px, 20vw, 220px)'} left={'82%'} top={'58%'} color={'#2dd4bf'} />
 	<div class="line"></div>
 	<div class="wrapper">
 		{#each companies as company}
@@ -37,9 +32,18 @@
 					<Tag text={company.date} />
 				</div>
 				<p class="summary">{company.summary}</p>
-				<div class="bullet-list">
-					{#each company.summaryPoints as point}
-						<BulletListItem text={point} />
+				<div class="points-blocks">
+					{#each company.pointsBlocks as block}
+						<div class="points-block">
+							{#if block.title}
+								<p class="bold">{block.title}</p>
+							{/if}
+							<div class="bullet-list">
+								{#each block.points as point}
+									<BulletListItem text={point} />
+								{/each}
+							</div>
+						</div>
 					{/each}
 				</div>
 				<div class="links">
