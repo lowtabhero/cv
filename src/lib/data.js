@@ -178,8 +178,8 @@ export const data = {
 				'Vercel'
 			],
 			link: {
-				n: 'internal.stockscout.eu',
-				v: 'https://internal.stockscout.eu/'
+				n: 'clusterbase.eu',
+				v: 'https://clusterbase.eu?utm_source=cv'
 			}
 		},
 		{
