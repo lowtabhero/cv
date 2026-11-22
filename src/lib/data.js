@@ -116,7 +116,7 @@ export const data = {
 						'Developed SvelteKit reusable website templates with JSON-based content, CDN-hosted images',
 						'Handled website maintenance, DNS setup, project transfers, deployment tasks, production fixes, and content updates for existing websites',
 						'Took ownership of a Nuxt-based website built by another developers team',
-						'Developed the Listyco real-estate MVP in SvelteKit with Inmoba CRM integration, implementing property data flows, frontend views, and custom business logic before the project was paused.',
+						'Built the Listyco real estate MVP with SvelteKit and MySQL. Added listings for properties and new developments, data updates from Inmoba CRM, property collections, calculators, and WordPress integration.',
 						'Mentored a junior developer in SvelteKit and practical development workflows'
 					]
 				}
